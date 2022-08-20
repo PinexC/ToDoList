@@ -1,0 +1,53 @@
+
+html, body {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  width: 300px;
+  height: 405px;
+  position: absolute;
+  top: 20%;
+  left: 0px; 
+  right: 0px;
+  margin: 0px auto;
+}
+
+#deletebtn {
+  position: absolute;
+  right: 10px;
+
+}
+#Priority {
+  margin: 0 0 0 .2em ;
+}
+
+.High {
+  background-color: rgb(253, 144, 144);
+      }
+  
+.Medium {
+  background-color: rgb(231, 247, 173);
+      }
+  
+.Low {
+  background-color: rgb(168, 247, 168);
+      }
+      ul {
+        margin: 0;
+        padding: 0;
+      }
+
+      ul li {
+        cursor: pointer;
+        position: relative;
+        padding: 12px 8px 12px 20px;
+        background: #eee;
+        font-size: 18px;
+        transition: 0.2s;
+        border-radius: 5px;
+        top: 10px;
+        bottom: 10px;
+        margin: 0 0 .2em 0; 
+        list-style-type: none;
+      }
